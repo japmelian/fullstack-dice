@@ -1,0 +1,35 @@
+{
+  "name": "fullstack-dice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel src/index.html",
+    "clean": "rm -rf dist build .core",
+    "deploy": "gh-pages -d build",
+    "build": "parcel build src/index.html -d build --public-url /fullstack-dice/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/japmelian/fullstack-dice.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/japmelian/fullstack-dice/issues"
+  },
+  "homepage": "https://github.com/japmelian/fullstack-dice#readme",
+  "devDependencies": {
+    "eslint": "^7.10.0",
+    "eslint-config-standard": "^14.1.1",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "parcel-bundler": "^1.12.4",
+    "stylelint": "^13.7.2",
+    "stylelint-config-standard": "^20.0.0"
+  }
+}
